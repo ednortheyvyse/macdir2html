@@ -5,6 +5,12 @@ macdir2html is [LinuxDir2HTML](https://github.com/homeisfar/LinuxDir2HTML) but w
 - Big Sur
 - Monterey
 
+# How to
+1. Open the App and it will want you to select the directory you want to snapshot.
+2. Then choose the name of the snapshot. By default it will name it the directory name and _Report
+3. It will then want you to select the output location of the snapshot.
+4. It will warn you if the snapshot report already exists, you can either cancel or replace it.
+
 ## LinuxDir2HTML
 LinuxDir2HTML is a small program to help create an offline manifest of your files in an easily navigable html format. It is a CLI-only clone of [Snap2HTML](https://www.rlvision.com/snap2html/). LinuxDir2HTML is a rewrite of [DiogenesList](https://github.com/ZapperDJ/DiogenesList), making significant improvements to it:
 

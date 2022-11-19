@@ -23,4 +23,4 @@ LinuxDir2HTML is a small program to help create an offline manifest of your file
 LinuxDir2HTML will produce essentially an identical output to Snap2HTML by using the same HTML template from that project.
 
 ## Latest Download
-Click [here](https://github.com/ednortheyvyse/macdir2html/blob/main/Downloads/macdir2html%20v22.9.dmg) to get the latest version
+Click [here](https://github.com/ednortheyvyse/macdir2html/raw/main/Downloads/macdir2html%20v22.9.dmg) to get the latest version

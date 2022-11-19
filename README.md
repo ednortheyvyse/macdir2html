@@ -1,6 +1,9 @@
 # macdir2html
 
-I put together a simple GUI for LinuxDir2HTML. It needs xcode for it to run.
+macdir2html is [LinuxDir2HTML](https://github.com/homeisfar/LinuxDir2HTML) but with a gui to make it more user-friendly. It currently needs xcode to run LinuxDir2HTML's python script. It has been tested on the following macOS:
+
+- Big Sur
+- Monterey
 
 ## LinuxDir2HTML
 LinuxDir2HTML is a small program to help create an offline manifest of your files in an easily navigable html format. It is a CLI-only clone of [Snap2HTML](https://www.rlvision.com/snap2html/). LinuxDir2HTML is a rewrite of [DiogenesList](https://github.com/ZapperDJ/DiogenesList), making significant improvements to it:

@@ -1,9 +1,8 @@
 # macdir2html
 
-macdir2html is [LinuxDir2HTML](https://github.com/homeisfar/LinuxDir2HTML) but with a gui to make it more user-friendly. It currently needs xcode to run LinuxDir2HTML's python script. It has been tested on the following macOS:
+macdir2html is a small app that adds user prompts to the command-line based tool [LinuxDir2HTML](https://github.com/homeisfar/LinuxDir2HTML). LinuxDir2HTML is a Mac version of the Windows program [Snap2HTML](https://www.rlvision.com/snap2html/). macdir2html currently requires xcode to run LinuxDir2HTML's python script but will prompt you if you do not have it. 
 
-- Big Sur
-- Monterey
+It works on both M1 and Intel chips and has been tested on Big Sur and Monterey.
 
 # How to
 1. Open the App and it will want you to select the directory you want to snapshot.

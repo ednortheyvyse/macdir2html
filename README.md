@@ -1,26 +1,54 @@
 # macdir2html
 
-macdir2html is a small app that adds user prompts to the command-line based tool [LinuxDir2HTML](https://github.com/homeisfar/LinuxDir2HTML). LinuxDir2HTML is a Mac version of the Windows program [Snap2HTML](https://www.rlvision.com/snap2html/). macdir2html currently requires xcode to run LinuxDir2HTML's python script but will prompt you if you do not have it. 
+> **⚠️ This project has been superseded by MacDrive Snap and is no longer actively maintained.**
+>
+> For the latest version with improved functionality, ongoing development, and support, please visit:
+>
+> **MacDrive Snap**
+> https://github.com/ednortheyvyse/MacDriveSnap
 
-It works on both M1 and Intel chips and has been tested on Big Sur and Monterey.
+## About
 
-# How to
-1. Open the App and it will want you to select the directory you want to snapshot.
-2. Then choose the name of the snapshot. By default it will name it the directory name and _Report
-3. It will then want you to select the output location of the snapshot.
-4. It will warn you if the snapshot report already exists, you can either cancel or replace it.
+macdir2html was a simple macOS application that provided a graphical interface for the command-line tool [LinuxDir2HTML](https://github.com/homeisfar/LinuxDir2HTML). It allowed users to create offline HTML snapshots of directory structures in a format similar to the Windows application [Snap2HTML](https://www.rlvision.com/snap2html/).
+
+The application was designed to work on both Intel and Apple Silicon Macs and was tested on macOS Big Sur and Monterey.
+
+## Looking for a Modern Replacement?
+
+**MacDrive Snap** is the direct successor to macdir2html and provides a more modern and streamlined experience for creating searchable HTML snapshots of drives and folders on macOS.
+
+👉 **Download or learn more:**
+https://github.com/ednortheyvyse/MacDriveSnap
+
+## Legacy Information
+
+macdir2html relied on LinuxDir2HTML and required Xcode Command Line Tools to run the underlying Python script.
+
+### Original Workflow
+
+1. Open the application and select the directory you want to snapshot.
+2. Choose a name for the snapshot.
+3. Select the output location.
+4. Confirm whether to replace an existing report if one already exists.
 
 ## LinuxDir2HTML
-LinuxDir2HTML is a small program to help create an offline manifest of your files in an easily navigable html format. It is a CLI-only clone of [Snap2HTML](https://www.rlvision.com/snap2html/). LinuxDir2HTML is a rewrite of [DiogenesList](https://github.com/ZapperDJ/DiogenesList), making significant improvements to it:
 
-- Python 3.6+
-- Doesn't fail on symlinks (symlinks are ignored)
-- More graceful invocation and sane usage
-- Much, much, much faster
-- Highly improved code
+LinuxDir2HTML is a CLI-only clone of [Snap2HTML](https://www.rlvision.com/snap2html/) that creates offline HTML manifests of directory structures.
 
-LinuxDir2HTML will produce essentially an identical output to Snap2HTML by using the same HTML template from that project.
+Key features include:
 
-## Troubleshooting
-- Make sure you have the latest version of xcode installed.
-- Try opening up xcode and accepting the T&C's.
+* Python 3.6+
+* Symlink-safe operation (symlinks are ignored)
+* Improved performance
+* Cleaner invocation and usage
+* Output compatible with Snap2HTML's HTML template
+
+Project: https://github.com/homeisfar/LinuxDir2HTML
+
+## Troubleshooting (Legacy)
+
+If you are still using macdir2html:
+
+* Ensure Xcode Command Line Tools are installed.
+* Open Xcode at least once and accept any license agreements.
+* Consider migrating to **MacDrive Snap**, which replaces this application and will receive future updates.
